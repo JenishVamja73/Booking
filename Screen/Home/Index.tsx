@@ -12,7 +12,7 @@ import {
 const Home = ({ navigation }) => {
     const [selectedSlot, setSelectedSlot] = useState(null);
     const [savedBooking, setSavedBooking] = useState([]);
-    c
+    
 
     const slots = [
         { id: 1, time: "09:00 AM" },
